@@ -84,6 +84,7 @@
     background-color: aliceblue;
     height: 742px;
     margin: 100px auto;
+    
 }
 #card-box .title{
     color: rgba(16, 16, 16, 1);
@@ -146,4 +147,65 @@
     border-radius: 8px;
     border: none;
     cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+#section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-star
+    width: 1932px;
+    height: 671px;
+    background-image: url("../assets/social-bg.png");
+    background-repeat: no-repeat;
+    /* padding: 150px; */
+    margin: 150 auto;
+}
+#section .title{
+    width: 805px;
+    height: 128px;
+    color: rgba(16, 16, 16, 1);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 10px;
+}
+#section .containt{
+    width: 556px;
+    height: 28px;
+    color: rgba(16, 16, 16, 1);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align:left;
+    text-align: right;
+    padding: 5px;
+
+}
+#section .btm{ 
+    /* align-items: center; */
+    /* text-align: center; */
+    width: 207px;
+    height: 38px;
+    color: rgba(16, 16, 16, 1);
+    color: rgba(16, 16, 16, 1);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    /* text-align: left; */
+    /* text-align: right; */
 }
