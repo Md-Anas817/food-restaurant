@@ -83,5 +83,67 @@
     width: 1320px;
     background-color: aliceblue;
     height: 742px;
-    margin: 0 auto;
+    margin: 100px auto;
+}
+#card-box .title{
+    color: rgba(16, 16, 16, 1);
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#card-box .subtitle{
+    color: rgba(16, 16, 16, 1);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: .7;
+    padding-top:15px ;
+}
+.card-container{
+    margin-top:35px ;
+    display: flex;
+    justify-content:space-between ;
+    gap: 20px;
+    font-family:  Work Sans;
+    padding: 20px;
+}
+
+.card{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.card .img-box{
+    width: 250px;
+    
+}
+.card .img-box img{
+    width: 100%;
+}
+.card .shop{
+    /* text-align: center; */
+    background-color: rgba(82, 195, 3, 0.15);
+    padding: 8px 15px;
+    border-radius: 8px;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 10px 20px ;
+    background-color: rgba(82, 195, 3, 1);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
 }
