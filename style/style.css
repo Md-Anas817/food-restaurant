@@ -160,7 +160,7 @@
 #section{
     display: flex;
     flex-direction: column;
-    justify-content: flex-star
+    /* justify-content: flex-star */
     width: 1932px;
     height: 671px;
     background-image: url("../assets/social-bg.png");
@@ -208,4 +208,69 @@
     letter-spacing: 0%;
     /* text-align: left; */
     /* text-align: right; */
+}
+
+
+
+#section2{
+    display: flex;
+}
+#section2 .no1{
+    width: 50%;
+}
+#section2 .no1 .imag{
+    /* width: 960px; */
+    /* height: 671px; */
+    width: 100%;
+    padding: 10px;
+    padding-right: none;
+}
+#section2 .no2{
+    width: 50%;
+
+}
+#section2 .hedding{
+    color: rgba(16, 16, 16, 1);
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#section2 .para{
+    opacity: 0.6;
+    color: rgba(16, 16, 16, 1);
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 15px;
+}
+#section2 .frame{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 15px 7px 15px 7px;
+    border: 1px solid ;
+    border-left: none;
+    border-right: none;
+    border-width: 50%;
+
+}
+#section2 .follow{
+    color: rgba(16, 16, 16, 1);
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    /* border: 1px solid; */
+    /* display: block; */
 }
